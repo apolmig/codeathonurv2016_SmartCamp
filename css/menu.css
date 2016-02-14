@@ -1,0 +1,153 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot');
+  src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-menu, .icon-upload, .icon-search, .icon-share, .icon-board, button {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  color:white;
+  display:block;
+  font-size:1.5em;
+  width:100%;
+  height:100%;
+  line-height:2em;
+  border-radius:50%;
+}
+
+.icon-menu {
+  background-image: url('../images/showmenu.png');
+  background-size: 100% 100%;
+}
+/*.icon-menu:before {
+  content: "\e000";
+}*/
+.icon-upload{
+  background-image: url('../images/upload-128-000000.png');
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+  background-color: #8ABDFF;
+  background-position: 35% 35%;
+}
+/*.icon-upload:before {
+  content: "\e001";
+}*/
+.icon-search{
+  background-image: url('../images/search128.png');
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+  background-position: 35% 35%;
+  background-color: #8ABDFF;
+}
+/*.icon-search:before {
+  content: "\e002";
+}*/
+.icon-share{
+  /*background-color: #B73223;*/
+  background-color: #000000;
+}
+.icon-share:before {
+  /*content: "\e003";*/
+  content: "\e000";
+}
+.icon-board{
+  background-image: url('../images/screen64.png');
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+  background-position: 35% 35%;
+  background-color: #8ABDFF; /*BEFFAD*/
+}
+/*.icon-board:before {
+  content: "\e004";
+}*/
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border:0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  border: 1px solid transparent;
+  font: 300 1.3em "Source Sans Pro", sans-serif;
+  /*padding: 5%;*/
+  color: #555;
+}
+
+h1{
+    margin:10px auto 30px;
+    color: deepPink;
+}
+p {
+  margin-bottom: 10px
+}
+a{
+  color: deepPink;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container{
+  overflow:hidden;
+  width:80%;
+  margin: 0 auto;
+}
+
+button,
+li {
+  border-radius: 50%;
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  border: none
+}
+
+button {
+  background-color: #111;
+  z-index: 5;
+  cursor: pointer;
+  font-size:1em;
+}
+
+li.slideout:nth-child(1) {
+  -webkit-transform: translateY(-10em);
+  transform: translateY(-10em)
+}
+
+li.slideout:nth-child(2) {
+  -webkit-transform: translateY(-8.6602540378em) translateX(5em);
+  transform: translateY(-8.6602540378em) translateX(5em)
+}
+
+li.slideout:nth-child(3) {
+  -webkit-transform: translateY(-5em) translateX(8.6602540378em);
+  transform: translateY(-5em) translateX(8.6602540378em)
+}
+
+li.slideout:nth-child(4) {
+  -webkit-transform: translateX(10em);
+  transform: translateX(10em)
+}

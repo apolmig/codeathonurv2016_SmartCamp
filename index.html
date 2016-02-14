@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" id="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	
+	<!--
+	 ************************************************************************
+	 * Event: Codeathon 2016
+	 * Team: SmartCamp
+	 * Drone Product Delivery
+	 * Version: 2016/02/13 - 1
+	 * Authors: Santi Frias, Miguel Guerrer, Miguel Moroón, Jesús Gironés
+	 * Historic:
+	 *  - 2016/02/13 - 1:
+	 *	· First version
+	 ************************************************************************
+	-->
+
+	<title>Drone Product Delivery</title>
+
+	<LINK REL=StyleSheet HREF="css/style.css" TYPE="text/css">
+	<LINK REL=StyleSheet HREF="css/menu.css" TYPE="text/css">
+    <script type="text/javascript" src="js/jquery/1_11_1/jquery_1_11_1_min.js"></script>
+	<script type="text/javascript" src="js/pdfjs/pdf.js"></script>
+	<script type="text/javascript" src="js/pdfjs/pdf.worker.js"></script>
+    <script type="text/javascript" src="js/scresize.js"></script>
+    <script type="text/javascript" src="js/scviewer.js"></script>
+
+
+    <script type="text/javascript">
+		$(document).ready(function () {
+			// Browse Compatibility initialization
+			sc_initialize();
+			
+		});
+    </script>
+</head>
+
+<body>
+		<div id="sc_large">
+			<div style="padding-top: 50px; padding-left: 30px;">
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                Selecciona el recurso a subir:</br>
+                <input type="file" name="recurso"></br>
+                <input type="submit" value="Subir recurso" name="btnRecurso"></br>
+            </form>
+			</div>
+			<div id="sc_popup_close"></div>
+		</div>
+		<div id="sc_background"></div>
+	<div class="sc_page_content">
+		<div class="sc_header">
+			<div class='sc_logo'></div>
+			<div class='sc_header_user_info'>User</div>
+			<div class='sc_header_text'>MidTag</div>
+		</div>
+		<div class='sc_content'>
+			<div id="lfil"></div>
+			<div id="sc_visualizer">
+				<div id="topcontainer">
+					<div id="htmlcontainer">
+						<div id="ccontainer">
+				<canvas id="canvas" width="400" height="500" style="border: 1px solid orange;"></canvas>
+				</div></div></div>
+			</div>
+		</div>
+		<div class="option-buttons cn-wrapper">
+		  <ul>
+			<li><a href="#"><span aria-hidden="true" class="icon-upload"></span></a></li>
+			<li><a href="#"><span aria-hidden="true" class="icon-search"></span></a></li>
+			<li><a href="#"><span aria-hidden="true" class="icon-share"></span></a></li>
+			<li><a href="#"><span aria-hidden="true" class="icon-board"></span></a></li>
+		  </ul>
+		   <button class="trigger"><span aria-hidden="true" class="icon-menu"></span></button>
+		</div>
+	</div>
+</body>
+</html>

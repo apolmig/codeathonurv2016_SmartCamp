@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - smartcamp@localhost" uuid="718e8409-d1ce-465f-8a84-1cd44a1a98f9">
+    <database-info product="MySQL" version="5.5.5-10.1.9-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="smartcamp"/>
+    <table name="Recurso" schema="" catalog="smartcamp" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="tipo" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="fecha_publicacion" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="usuario_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="ubicacion" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="puntuacion" schema="" catalog="smartcamp" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="recurso_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="usuario_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="tag_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="valor" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="tag" schema="" catalog="smartcamp" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="fecha_publicacion" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="recurso_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="usuario_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="posicion_x" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="posicion_y" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="pagina" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="comentario" sqlType="TEXT" precision="16383" scale="0" nullable="false" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="usuario" schema="" catalog="smartcamp" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nombre" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="tipo" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="foto" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+  </data-source>
+</component>

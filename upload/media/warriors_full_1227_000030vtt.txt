@@ -1,0 +1,83 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000001.jpg
+
+00:00:25.000 --> 00:00:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000030.jpg
+
+00:00:55.000 --> 00:01:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000060.jpg
+
+00:01:25.000 --> 00:01:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000090.jpg
+
+00:01:55.000 --> 00:02:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000120.jpg
+
+00:02:25.000 --> 00:02:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000150.jpg
+
+00:02:55.000 --> 00:03:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000180.jpg
+
+00:03:25.000 --> 00:03:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000210.jpg
+
+00:03:55.000 --> 00:04:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000240.jpg
+
+00:04:25.000 --> 00:04:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000270.jpg
+
+00:04:55.000 --> 00:05:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000300.jpg
+
+00:05:25.000 --> 00:05:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000330.jpg
+
+00:05:55.000 --> 00:06:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000360.jpg
+
+00:06:25.000 --> 00:06:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000390.jpg
+
+00:06:55.000 --> 00:07:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000420.jpg
+
+00:07:25.000 --> 00:07:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000450.jpg
+
+00:07:55.000 --> 00:08:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000480.jpg
+
+00:08:25.000 --> 00:08:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000510.jpg
+
+00:08:55.000 --> 00:09:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000540.jpg
+
+00:09:25.000 --> 00:09:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000570.jpg
+
+00:09:55.000 --> 00:10:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000600.jpg
+
+00:10:25.000 --> 00:10:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000630.jpg
+
+00:10:55.000 --> 00:11:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000660.jpg
+
+00:11:25.000 --> 00:11:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000690.jpg
+
+00:11:55.000 --> 00:12:25.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000720.jpg
+
+00:12:25.000 --> 00:12:55.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000750.jpg
+
+00:12:55.000 --> 00:13:30.000
+https://archive.org/download/warriors_of_net/warriors_of_net.thumbs/warriors_full_1227_000780.jpg
+
