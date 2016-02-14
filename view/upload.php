@@ -1,5 +1,8 @@
 <?php
 
+    require_once("../controller/functions_recurso.php");
+
+
     $ubicacion = "../recursos/";
     $recurso = $ubicacion . basename($_FILES["recurso"]["name"]);
     $uploadOk = 1;
@@ -18,6 +21,9 @@
         var_dump($_FILES["recurso"]["tmp_name"]);
         var_dump($recurso);
         if (move_uploaded_file($_FILES["recurso"]["tmp_name"], $recurso)){
+
+            addRecurso($recurso, 1);
+
             echo "El archivo ha sido cargado correctamente.";
         }else{
             echo "Ocurrió algún error al subir el fichero. No pudo guardarse.";

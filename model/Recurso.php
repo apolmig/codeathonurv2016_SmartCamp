@@ -6,7 +6,7 @@
 
     require_once('../bd/bd_tag.php');
     require_once('../bd/bd_puntuacion.php');
-
+    require_once('../bd/bd_recurso.php');
 
     class Recurso
     {
@@ -101,7 +101,7 @@
 
         function __construct($recurso, $bd){
             var_dump($recurso);
-            if(!is_array($recurso)){ $recurso = getRecurso($recurso, $bd); }
+            //if(!is_array($recurso)){ $recurso = getRecurso($recurso, $bd); }
             var_dump($recurso);
             $this->setId($recurso['id']);
             $this->setTipo($recurso['tipo']);
@@ -128,9 +128,8 @@
             return $this->tags;
         }
 
-
         function save($bd){
-
+            insertRecurso($this, $bd);
         }
 
     }
