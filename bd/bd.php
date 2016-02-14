@@ -30,7 +30,7 @@
 
     function insertBD($sql, $bd){
         if (mysqli_query($bd, $sql)) {
-            return $bd->mysqli_insert_id();
+            return mysqli_insert_id($bd);
         } else {
             var_dump(mysqli_error($bd));
         }

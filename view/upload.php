@@ -1,7 +1,8 @@
 <?php
+    ini_set('display_errors', 0);
+    error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
     require_once("../controller/functions_recurso.php");
-
 
     $ubicacion = "../recursos/";
     $recurso = $ubicacion . basename($_FILES["recurso"]["name"]);
@@ -18,8 +19,8 @@
             $uploadOk = 0;
         }*/
 
-        var_dump($_FILES["recurso"]["tmp_name"]);
-        var_dump($recurso);
+        //var_dump($_FILES["recurso"]["tmp_name"]);
+        //var_dump($recurso);
         if (move_uploaded_file($_FILES["recurso"]["tmp_name"], $recurso)){
 
             addRecurso($recurso, 1);

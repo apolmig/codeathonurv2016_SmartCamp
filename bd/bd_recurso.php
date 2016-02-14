@@ -31,15 +31,16 @@
     }
 
     function insertRecurso($recurso, $bd){
-        $bd = openBD();
+        //$bd = openBD();
         $sql_insert = "INSERT INTO recurso (id, tipo, fecha_publicacion, usuario_id, ubicacion)
                         VALUES (NULL, '".mysqli_real_escape_string($bd, $recurso->getTipo())."',
                         '".mysqli_real_escape_string($bd, $recurso->getFechaPublicacion())."',
                         '".mysqli_real_escape_string($bd, $recurso->getUsuario())."',
                         '".mysqli_real_escape_string($bd, $recurso->getUbicacion())."');";
 
-        insertBD($sql_insert, $bd);
-        closeBD($bd);
+        $resultado = insertBD($sql_insert, $bd);
+        //var_dump($resultado);
+        //closeBD($bd);
     }
 
     function updateRecurso(){

@@ -100,9 +100,9 @@
         }
 
         function __construct($recurso, $bd){
-            var_dump($recurso);
+            //var_dump($recurso);
             //if(!is_array($recurso)){ $recurso = getRecurso($recurso, $bd); }
-            var_dump($recurso);
+            //var_dump($recurso);
             $this->setId($recurso['id']);
             $this->setTipo($recurso['tipo']);
             $this->setFechaPublicacion($recurso['fecha_publicacion']);
