@@ -19,6 +19,17 @@
         return $recursos;
     }
 
+    function getRecursosUsuario($idUsuario, $bd){
+        $sql_query = "SELECT * FROM recurso WHERE usuario_id=".mysqli_real_escape_string($bd, $idUsuario);
+
+        $resultado = selectBD($sql_query, $bd);
+        if(isset($resultado) && count($resultado) > 0){
+            $recurso = new Recurso($resultado);
+        }
+
+        return $recurso;
+    }
+
     function getRecurso($idRecurso, $bd){
         $sql_query = "SELECT * FROM recurso WHERE id=".mysqli_real_escape_string($bd, $idRecurso);
 

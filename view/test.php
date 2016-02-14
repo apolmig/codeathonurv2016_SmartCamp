@@ -8,16 +8,4 @@
 
     $bd = openBD();
 
-    //$array_recursos = getRecursos($bd);
-
-    //var_dump($array_recursos);
-
-    //$array_recursos = getRecurso(1, $bd);
-
-    //var_dump($array_recursos);
-
-
-
-
-
     closeBD($bd);

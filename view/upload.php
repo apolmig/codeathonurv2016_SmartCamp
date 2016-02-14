@@ -4,12 +4,13 @@
 
     require_once("../controller/functions_recurso.php");
 
-    $ubicacion = "../recursos/";
-    $recurso = $ubicacion . basename($_FILES["recurso"]["name"]);
-    $uploadOk = 1;
-    $tipoRecurso = pathinfo($recurso, PATHINFO_EXTENSION);
-
     if(isset($_POST["btnRecurso"])) {
+
+        $ubicacion = "../recursos/";
+        $recurso = $ubicacion . basename($_FILES["recurso"]["name"]);
+        $uploadOk = 1;
+        $tipoRecurso = pathinfo($recurso, PATHINFO_EXTENSION);
+
         /*$validar = getimagesize($_FILES["recurso"]["tmp_name"]);
         if($validar !== false) {
             echo "File is an image - " . $validar["mime"] . ".";
@@ -21,9 +22,10 @@
 
         //var_dump($_FILES["recurso"]["tmp_name"]);
         //var_dump($recurso);
+
         if (move_uploaded_file($_FILES["recurso"]["tmp_name"], $recurso)){
 
-            addRecurso($recurso, 1);
+            addRecurso($recurso, 1);//ubicacion, id_usuario
 
             echo "El archivo ha sido cargado correctamente.";
         }else{

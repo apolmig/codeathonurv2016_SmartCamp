@@ -1,6 +1,7 @@
 <?php
 
     require_once("../bd/bd.php");
+    require_once("../bd/bd_recurso.php");
     require_once('../model/Recurso.php');
 
     function addRecurso($ubicacion, $idUsuario){
@@ -18,3 +19,10 @@
         closeBD($bd);
     }
 
+    /*function getRecursos($idUsuario){
+        $bd = openBD();
+
+        getRecursosUsuario($idUsuario, $bd);
+
+        closeBD($bd);
+    }*/
